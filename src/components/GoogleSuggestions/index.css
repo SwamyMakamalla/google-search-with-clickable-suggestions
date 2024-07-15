@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.page-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 50%;
+  max-width: 350px;
+}
+.search-card {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: white;
+  padding: 0 10px 12px 10px;
+  margin-top: 10px;
+  box-shadow: 0px 4px 16px 0px;
+}
+.search-logo {
+  height: 25px;
+  width: 25px;
+}
+.input-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.input-element {
+  border: 1px solid transparent;
+  padding: 8px 16px;
+}
+.input-element:focus {
+  border: none;
+  outline: none;
+}
+.list-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
